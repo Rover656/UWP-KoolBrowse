@@ -2,10 +2,10 @@
 A nice clean browser for Windows 10 Mobile
 ## Features
 Back and Forward buttons</br>
-Url Bar
+Url Bar</br>
+Search and short url's
 ## To-To's
 History Page</br>
-Search Using Url Bar</br>
 ~~Programmers edition (Custom Coding Keyboard)~~ (Postponed)
 ##Using code from/Based on
 https://www.youtube.com/watch?v=0cf5Qd3f4NY&index=62&list=PLaoF-xhnnrRUNVx-JAfEy_kUrGGaKS7HL
