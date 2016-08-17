@@ -9,7 +9,8 @@ History Page</br>
 Favourites Page</br>
 Redesign UI</br>
 Show device toolbar (Time, battery, ect.)</br>
-Make URL bar highlight the whole line when selecting it</BR>
+Make URL bar highlight the whole line when selecting it</br>
+Fix typos</br>
 ~~Programmers edition (Custom Coding Keyboard)~~ (Postponed)
 ##Using code from/Based on
 https://www.youtube.com/watch?v=0cf5Qd3f4NY&index=62&list=PLaoF-xhnnrRUNVx-JAfEy_kUrGGaKS7HL
