@@ -1,5 +1,7 @@
 # UWP-KoolBrowse
 A nice clean browser for Windows 10 UWP
+## Latest
+The app is fully compatible with the anniversary update!
 ## Features
 Back and Forward buttons</br>
 Url Bar</br>
