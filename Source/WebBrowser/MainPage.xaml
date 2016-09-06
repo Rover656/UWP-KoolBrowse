@@ -17,7 +17,7 @@
                 <AppBarButton Icon="Back" Label="Back" Name="backBtn" Click="backBtn_Click"/>
                 <AppBarButton Icon="Forward" Label="Forward" Name="fowardBtn" Click="fowardBtn_Click"/>
                 <AppBarButton Icon="Refresh" Label="Refresh" Name="refreshBtn" Click="refreshBtn_Click"/>
-                <AppBarButton Icon="Cancel" Label="Cencel" Name="cancelBtn" Click="cancelBtn_Click"/>
+                <AppBarButton Icon="Cancel" Label="Cancel" Name="cancelBtn" Click="cancelBtn_Click"/>
             </StackPanel>
         </AppBar>
     </Page.BottomAppBar>
