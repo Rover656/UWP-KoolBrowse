@@ -95,7 +95,7 @@ namespace WebBrowser
         /// <param name="e">Details about the navigation failure</param>
         void OnNavigationFailed(object sender, NavigationFailedEventArgs e)
         {
-            throw new Exception("Error al abrir la página " + e.SourcePageType.FullName);
+            throw new Exception("Error al cargar la página " + e.SourcePageType.FullName);
         }
 
         /// <summary>
