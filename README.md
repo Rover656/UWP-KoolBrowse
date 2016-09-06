@@ -13,6 +13,7 @@ Redesign UI</br>
 Show device Status Bar</br>
 Make URL bar highlight the whole line when selecting it</br>
 Fix typos</br>
-Programmers edition</br>
+Programmers edition (With special Keyboard)</br>
+Settings Page</br>
 ## Build upon
 https://www.youtube.com/watch?v=0cf5Qd3f4NY&index=62&list=PLaoF-xhnnrRUNVx-JAfEy_kUrGGaKS7HL
