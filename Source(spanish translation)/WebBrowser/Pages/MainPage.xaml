@@ -8,14 +8,20 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBox Margin="10,0,30,75" Name="Value" VerticalAlignment="Bottom" InputScope="Url" KeyDown="Value_KeyDown"/>
-        <WebView Margin="0,0,0,107" Name="Display" NavigationCompleted="Display_NavigationCompleted"/>
+        <StackPanel>
+            <TextBox Name="Value"
+                     VerticalAlignment="Top"
+                     InputScope="Url"
+                     KeyDown="Value_KeyDown" />
+            <WebView Name="Display"
+                     NavigationCompleted="Display_NavigationCompleted" />
+        </StackPanel>
     </Grid>
     <Page.BottomAppBar>
         <AppBar IsOpen="False" IsSticky="True">
             <StackPanel Orientation="Horizontal">
                 <AppBarButton Icon="Back" Label="Retroceder" Name="backBtn" Click="backBtn_Click"/>
-                <AppBarButton Icon="Forward" Label="Avanazar" Name="fowardBtn" Click="fowardBtn_Click"/>
+                <AppBarButton Icon="Forward" Label="Avanzar" Name="fowardBtn" Click="fowardBtn_Click"/>
                 <AppBarButton Icon="Refresh" Label="Actualizar" Name="refreshBtn" Click="refreshBtn_Click"/>
                 <AppBarButton Icon="Cancel" Label="Detener" Name="cancelBtn" Click="cancelBtn_Click"/>
             </StackPanel>

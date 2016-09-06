@@ -28,6 +28,9 @@ public class Library
                     try
                     {
                         web.Navigate(new System.Uri(value));
+                    } catch
+                    {
+
                     }
                 } else if (value.Contains(".")) {
                     string newvalue = "http://" + value;
