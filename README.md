@@ -2,6 +2,9 @@
 A nice clean browser for Windows 10 UWP
 ## Latest
 The app is fully compatible with the anniversary update!
+## Languages
+This app is available in the following languages:
+English (en-GB)
 ## Features
 Back and Forward buttons</br>
 Url Bar</br>
