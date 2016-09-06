@@ -5,7 +5,7 @@ The app is fully compatible with the anniversary update!
 ## Languages
 This app is available in the following languages:</br>
 English (en-GB)</br>
-Spanish
+Spanish (haves a help section), search in code (spanish_help) path
 ## Features
 Back and Forward buttons</br>
 Url Bar</br>
