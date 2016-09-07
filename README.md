@@ -19,6 +19,6 @@ Search and short url's</br>
 - [x] Fix typos</br>
 - [ ] Programmers edition (With special Keyboard)</br>
 - [ ] Settings Page</br>
-- [ ] ~Page not load error~ Add error pages</br>
-## Build upon
+- [ ] Add error pages</br>
+## Built upon
 https://www.youtube.com/watch?v=0cf5Qd3f4NY&index=62&list=PLaoF-xhnnrRUNVx-JAfEy_kUrGGaKS7HL
