@@ -7,6 +7,9 @@ A nice clean browser for Windows 10 UWP
 ## Dev's Chat Media
 - Discord:  (https://discord.gg/WauNpUU)
 
+## Intro Video
+- Youtube: (https://www.youtube.com/watch?v=dVzn37w3T4I)
+
 ## Latest
 The app is fully compatible with the anniversary update!
 
