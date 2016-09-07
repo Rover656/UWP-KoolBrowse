@@ -27,6 +27,7 @@
                 <AppBarButton Icon="Cancel" Label="Cancel" Name="cancelBtn" Click="cancelBtn_Click"/>
                 <CommandBar.SecondaryCommands>
                     <AppBarButton Icon="Settings" Label="Settings" Click="settingsBtn_click" />
+                    <AppBarButton Icon="People" Label="Developers" Click="devBtn_click" />
                 </CommandBar.SecondaryCommands>
             </StackPanel>
         </AppBar>
