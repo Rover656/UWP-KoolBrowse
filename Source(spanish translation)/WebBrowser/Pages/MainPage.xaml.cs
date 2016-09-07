@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -24,31 +24,13 @@ namespace WebBrowser
     public sealed partial class MainPage : Page
     {
         Library Library = new Library();
-        /*public static bool isInternet()
-        {
-            try
-            {
-                using (var client = new WebClient())
-                {
-                    using (var stream = client.OpenRead("http://www.google.com"))
-                    {
-                        return true;
-                    }
-                }
-            }
-            catch
-            {
-                return false;
-            }
-        }*/
         public MainPage()
         {
             this.InitializeComponent();
             if (Value.Text == "")
             {
-                Display.Navigate(new System.Uri("http://google.com"));
+              Display.Navigate(new System.Uri("http://google.com"));
             }
-        }
 
         private void Value_KeyDown(object sender, KeyRoutedEventArgs e)
         {
@@ -81,9 +63,15 @@ namespace WebBrowser
             Display.Stop();
         }
         
-        private void settingsBrn_Click(object sender, RoutedEventArgs e
+        private void settingsBtn_Click(object sender, RoutedEventArgs e)
         {
-            var dialog = new MessageDialog("La página de configuración no ha sido creada aún!");
+            var dialog = new MessageDialog("Settings are not implemented yet!");
+            await dialog.ShowAsync();
+        }
+        
+        private void devBtn_Click(object sender, RoutedEventArgs e)
+        {
+            var dialog = new MessageDialog("Desarrolladores principales: Rover656 and DualThink");
             await dialog.ShowAsync();
         }
         //Function for textbox selectall
