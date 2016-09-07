@@ -29,7 +29,6 @@ https://www.youtube.com/watch?v=0cf5Qd3f4NY&index=62&list=PLaoF-xhnnrRUNVx-JAfEy
 - [x] Fix typos
 - [ ] Programmers edition (With special Keyboard)
 - [ ] Settings Page
-- [ ] Add error pages
 - [ ] Multilingual Resources (Implement Soon!)
 - [ ] Tabs
 - [x] Create error pages (in .html files) with background
