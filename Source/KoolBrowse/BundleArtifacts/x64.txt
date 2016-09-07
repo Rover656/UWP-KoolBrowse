@@ -1,2 +1,0 @@
-MainPackage=C:\Users\Reece Mackie\Documents\Visual Studio 2015\Projects\KoolBrowse\KoolBrowse\bin\x64\Debug\KoolBrowse_1.0.1.0_x64_Debug.appx
-SymbolPackage=C:\Users\Reece Mackie\Documents\Visual Studio 2015\Projects\KoolBrowse\KoolBrowse\AppPackages\KoolBrowse_1.0.1.0_Debug_Test\KoolBrowse_1.0.1.0_x64_Debug.appxsym
