@@ -19,5 +19,6 @@ Make URL bar highlight the whole line when selecting it</br>
 Fix typos (Fixed)</br>
 Programmers edition (With special Keyboard)</br>
 Settings Page (In Progress)</br>
+Page not load error (In Progress)
 ## Build upon
 https://www.youtube.com/watch?v=0cf5Qd3f4NY&index=62&list=PLaoF-xhnnrRUNVx-JAfEy_kUrGGaKS7HL
