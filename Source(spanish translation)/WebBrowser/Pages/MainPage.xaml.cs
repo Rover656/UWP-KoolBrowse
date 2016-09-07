@@ -65,7 +65,7 @@ namespace WebBrowser
         
         private void settingsBtn_Click(object sender, RoutedEventArgs e)
         {
-            var dialog = new MessageDialog("Settings are not implemented yet!");
+            var dialog = new MessageDialog("La configuración todavía no se implementó!");
             await dialog.ShowAsync();
         }
         

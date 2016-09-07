@@ -71,7 +71,7 @@ namespace WebBrowser
         
         private void devBtn_Click(object sender, RoutedEventArgs e)
         {
-            var dialong = new MessageDialog("Principal developers: Rover656 and DualThink");
+            var dialog = new MessageDialog("Principal developers: Rover656 and DualThink");
             await dialog.ShowAsync();
         }
         //Function for textbox selectall
