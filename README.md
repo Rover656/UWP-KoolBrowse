@@ -32,3 +32,4 @@ https://www.youtube.com/watch?v=0cf5Qd3f4NY&index=62&list=PLaoF-xhnnrRUNVx-JAfEy
 - [ ] Add error pages</br>
 - [ ] Multilingual Resources (Implement Soon!)</br>
 - [ ] Tabs
+- [x] Create error pages (in .html files) with background
