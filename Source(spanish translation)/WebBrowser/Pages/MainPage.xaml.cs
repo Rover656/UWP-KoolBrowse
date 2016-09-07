@@ -13,6 +13,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Windows.UI.Popups;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 namespace WebBrowser
@@ -78,6 +79,12 @@ namespace WebBrowser
         private void cancelBtn_Click(object sender, RoutedEventArgs e)
         {
             Display.Stop();
+        }
+        
+        private void settingsBrn_Click(object sender, RoutedEventArgs e
+        {
+            var dialog = new MessageDialog("La página de configuración no ha sido creada aún!");
+            await dialog.ShowAsync();
         }
         //Function for textbox selectall
         private void SelectAddress(object sender, RoutedEventArgs e)
