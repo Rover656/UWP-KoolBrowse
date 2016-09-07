@@ -1,5 +1,7 @@
 # UWP-KoolBrowse
 A nice clean browser for Windows 10 UWP
+## Dev´s Chat Media
+- Discord:  https://discord.gg/WauNpUU
 ## Latest
 The app is fully compatible with the anniversary update!
 ## Languages
