@@ -1,6 +1,9 @@
 # UWP-KoolBrowse
 A nice clean browser for Windows 10 UWP
 
+## Principal Developers
+@Rover656 & @Dualthink
+
 ## Dev's Chat Media
 - Discord:  (https://discord.gg/WauNpUU)
 
