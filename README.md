@@ -16,6 +16,7 @@ Spanish (haves a help section), search in code (spanish_help) path
 Back and Forward buttons</br>
 Url Bar</br>
 Search and short url's</br>
+Multi-Language</br>
 
 ## Built upon
 https://www.youtube.com/watch?v=0cf5Qd3f4NY&index=62&list=PLaoF-xhnnrRUNVx-JAfEy_kUrGGaKS7HL
@@ -31,5 +32,5 @@ https://www.youtube.com/watch?v=0cf5Qd3f4NY&index=62&list=PLaoF-xhnnrRUNVx-JAfEy
 - [ ] Settings Page
 - [ ] Multilingual Resources (Implement Soon!)
 - [ ] Tabs
-- [x] Create error pages (in .html files) with background
+- [x] Create error pages with background
 - [ ] Internet Checker (Activats no internet error is no internet found)
