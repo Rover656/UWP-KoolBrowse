@@ -11,7 +11,7 @@ Back and Forward buttons</br>
 Url Bar</br>
 Search and short url's</br>
 ## To-To's
-- [ ] History Page</br>
+[ ] History Page</br>
 - [ ] Favourites Page</br>
 - [x] Redesign UI</br>
 - [x] Show device Status Bar</br>
@@ -20,5 +20,3 @@ Search and short url's</br>
 - [ ] Programmers edition (With special Keyboard)</br>
 - [ ] Settings Page</br>
 - [ ] Add error pages</br>
-## Built upon
-https://www.youtube.com/watch?v=0cf5Qd3f4NY&index=62&list=PLaoF-xhnnrRUNVx-JAfEy_kUrGGaKS7HL
