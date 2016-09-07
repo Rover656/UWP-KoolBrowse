@@ -63,9 +63,15 @@ namespace WebBrowser
             Display.Stop();
         }
         
-        private void settingsBrn_Click(object sender, RoutedEventArgs e
+        private void settingsBrn_Click(object sender, RoutedEventArgs e)
         {
             var dialog = new MessageDialog("Settings are not implemented yet!");
+            await dialog.ShowAsync();
+        }
+        
+        private void devBtn_Click(object sender, RoutedEventArgs e)
+        {
+            var dialong = new MessageDialog("Principal developers: Rover656 and DualThink");
             await dialog.ShowAsync();
         }
         //Function for textbox selectall
