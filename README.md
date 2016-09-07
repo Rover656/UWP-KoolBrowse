@@ -21,15 +21,16 @@ Search and short url's</br>
 https://www.youtube.com/watch?v=0cf5Qd3f4NY&index=62&list=PLaoF-xhnnrRUNVx-JAfEy_kUrGGaKS7HL
 
 ## To-To's
-- [ ] History Page</br>
-- [ ] Favourites Page</br>
-- [x] Redesign UI</br>
-- [x] Show device Status Bar</br>
-- [ ] Make URL bar highlight the whole line when selecting it</br>
-- [x] Fix typos</br>
-- [ ] Programmers edition (With special Keyboard)</br>
-- [ ] Settings Page</br>
-- [ ] Add error pages</br>
-- [ ] Multilingual Resources (Implement Soon!)</br>
+- [ ] History Page
+- [ ] Favourites Page
+- [x] Redesign UI
+- [x] Show device Status Bar
+- [ ] Make URL bar highlight the whole line when selecting it
+- [x] Fix typos
+- [ ] Programmers edition (With special Keyboard)
+- [ ] Settings Page
+- [ ] Add error pages
+- [ ] Multilingual Resources (Implement Soon!)
 - [ ] Tabs
 - [x] Create error pages (in .html files) with background
+- [ ] Internet Checker (Activats no internet error is no internet found)
