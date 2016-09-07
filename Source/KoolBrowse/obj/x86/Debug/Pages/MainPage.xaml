@@ -1,0 +1,29 @@
+﻿<Page
+    x:Class="KoolBrowse.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:KoolBrowse"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBox x:ConnectionId='1' Name="Value"
+                     VerticalAlignment="Top"
+                     InputScope="Url"
+                                             />
+        <WebView x:ConnectionId='2' Name="Display"
+                                                                       Margin="0,32,0,0"/>
+    </Grid>
+    <Page.BottomAppBar>
+        <AppBar IsOpen="False" IsSticky="True">
+            <StackPanel Orientation="Horizontal">
+                <AppBarButton x:ConnectionId='3' Icon="Back" Label="Back" x:Name="backBtn" x:Uid="backButton"                      />
+                <AppBarButton x:ConnectionId='4' Icon="Forward" Label="Forward" x:Name="fowardBtn" x:Uid="forwardButton"                        />
+                <AppBarButton x:ConnectionId='5' Icon="Refresh" Label="Refresh" x:Name="refreshBtn" x:Uid="refreshButton"                         />
+                <AppBarButton x:ConnectionId='6' Icon="Cancel" Label="Cancel" x:Name="cancelBtn" x:Uid="cancelButton"                        />
+            </StackPanel>
+        </AppBar>
+    </Page.BottomAppBar>
+</Page>
+

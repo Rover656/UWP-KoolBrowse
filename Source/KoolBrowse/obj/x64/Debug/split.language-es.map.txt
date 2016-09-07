@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-es"
+"ResourceDimensions"		"language-es-es"
+
+[Files]
+"C:\Users\Reece Mackie\Documents\Visual Studio 2015\Projects\KoolBrowse\KoolBrowse\obj\x64\Debug\split.language-es.pri"			"resources.pri"
