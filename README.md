@@ -31,3 +31,4 @@ https://www.youtube.com/watch?v=0cf5Qd3f4NY&index=62&list=PLaoF-xhnnrRUNVx-JAfEy
 - [ ] Settings Page</br>
 - [ ] Add error pages</br>
 - [ ] Multilingual Resources (Implement Soon!)</br>
+- [ ] Tabs
