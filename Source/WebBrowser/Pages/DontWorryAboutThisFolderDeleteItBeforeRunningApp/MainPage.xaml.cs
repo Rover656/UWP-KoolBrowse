@@ -24,7 +24,7 @@ namespace WebBrowser
     public sealed partial class MainPage : Page
     {
         Library Library = new Library();
-        /*public static bool isInternet()
+        public static bool isInternet()
         {
             try
             {
@@ -40,13 +40,26 @@ namespace WebBrowser
             {
                 return false;
             }
-        }*/
+        }
         public MainPage()
         {
             this.InitializeComponent();
-            if (Value.Text == "")
+            if (isInternet())
             {
-                Display.Navigate(new System.Uri("http://google.com"));
+                if (Value.Text == "")
+                {
+                    Display.Navigate(new System.Uri("http://google.com"));
+                }
+            } else {
+                currentLanguage = CultureInfo.CurrentUICulture;
+                if (currentLanguage == "es-ES")
+                {
+                    Display.Navigate(new System.Uri("ms-appx-web:///WebResources/ErrorPages/Spanish/noInternet.html"));
+                }
+                else if (currentLanguage == "en-GB" or "en-US")
+                {
+                    Display.Navigate(new System.Uri("ms-appx-web:///WebResources/ErrorPages/English/noInternet.html"));
+                }
             }
         }
 
