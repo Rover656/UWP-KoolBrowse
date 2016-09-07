@@ -63,7 +63,7 @@ namespace WebBrowser
             Display.Stop();
         }
         
-        private void settingsBrn_Click(object sender, RoutedEventArgs e)
+        private void settingsBtn_Click(object sender, RoutedEventArgs e)
         {
             var dialog = new MessageDialog("Settings are not implemented yet!");
             await dialog.ShowAsync();
