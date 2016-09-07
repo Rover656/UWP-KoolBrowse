@@ -25,6 +25,9 @@
                 <AppBarButton Icon="Forward" Label="Forward" Name="fowardBtn" Click="fowardBtn_Click"/>
                 <AppBarButton Icon="Refresh" Label="Refresh" Name="refreshBtn" Click="refreshBtn_Click"/>
                 <AppBarButton Icon="Cancel" Label="Cancel" Name="cancelBtn" Click="cancelBtn_Click"/>
+                <CommandBar.SecondaryCommands>
+                    <AppBarButton Icon="Settings" Label="Settings" Click="settingsBtn_click" />
+                </CommandBar.SecondaryCommands>
             </StackPanel>
         </AppBar>
     </Page.BottomAppBar>
