@@ -16,7 +16,7 @@
                      KeyDown="Value_KeyDown" />
             <WebView Name="Display"
                      NavigationCompleted="Display_NavigationCompleted" />
-        </StackPanel>
+        </DockPanel>
     </Grid>
     <Page.BottomAppBar>
         <AppBar IsOpen="False" IsSticky="True">
