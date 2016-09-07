@@ -23,6 +23,23 @@ namespace WebBrowser
     public sealed partial class MainPage : Page
     {
         Library Library = new Library();
+        /*public static bool isInternet()
+        {
+            try
+            {
+                using (var client = new WebClient())
+                {
+                    using (var stream = client.OpenRead("http://www.google.com"))
+                    {
+                        return true;
+                    }
+                }
+            }
+            catch
+            {
+                return false;
+            }
+        }*/
         public MainPage()
         {
             this.InitializeComponent();
