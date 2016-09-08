@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
+using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
 using Windows.UI.Xaml.Controls;
@@ -24,37 +26,53 @@ namespace KoolBrowse.Libs
         {
             if (args.Key == Windows.System.VirtualKey.Enter)
             {
-                try
-                {
-                    if (value == "")
+                if (NetworkInterface.GetIsNetworkAvailable()) {
+                    try
                     {
-                        web.Navigate(new System.Uri("http://google.com"));
-                    }
-                    else if (value.StartsWith("http://") || value.StartsWith("https://"))
-                    {
-                        try
+                        if (value == "")
                         {
-                            web.Navigate(new System.Uri(value));
+                            web.Navigate(new System.Uri("http://google.com"));
                         }
-                        catch
+                        else if (value.StartsWith("http://") || value.StartsWith("https://"))
                         {
+                            try
+                            {
+                                web.Navigate(new System.Uri(value));
+                            }
+                            catch
+                            {
 
+                            }
+                        }
+                        else if (value.Contains("."))
+                        {
+                            string newvalue = "http://" + value;
+                            web.Navigate(new System.Uri(newvalue));
+                        }
+                        else
+                        {
+                            string newvalue = value.Replace(" ", "+");
+                            web.Navigate(new System.Uri("http://google.com/search?q=" + newvalue));
                         }
                     }
-                    else if (value.Contains("."))
+                    catch
                     {
-                        string newvalue = "http://" + value;
-                        web.Navigate(new System.Uri(newvalue));
+
+                    }
+                }
+                else
+                {
+                    CultureInfo ci = CultureInfo.CurrentCulture;
+                    if ((ci.TwoLetterISOLanguageName == "en-GB") | (ci.TwoLetterISOLanguageName == "es-ES"))
+                    {
+                        var url = "ms-appx-web:///WebResources/ErrorPages/" + ci.TwoLetterISOLanguageName + "/noInternet.html";
+                        web.Navigate(new System.Uri(url));
                     }
                     else
                     {
-                        string newvalue = value.Replace(" ", "+");
-                        web.Navigate(new System.Uri("http://google.com/search?q=" + newvalue));
+                        var url = "ms-appx-web:///WebResources/ErrorPages/" + "en-GB" + "/noInternet.html";
+                        web.Navigate(new System.Uri(url));
                     }
-                }
-                catch
-                {
-
                 }
                 web.Focus(Windows.UI.Xaml.FocusState.Keyboard);
             }

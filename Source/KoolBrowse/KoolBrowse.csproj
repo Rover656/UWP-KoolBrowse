@@ -101,6 +101,7 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Libs\AutoFocus.cs" />
     <Compile Include="Libs\BrowserControls.cs" />
     <Compile Include="Pages\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -171,6 +172,14 @@
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
     <Content Include="Assets\Wide310x150Logo.scale-400.png" />
     <Content Include="Properties\Default.rd.xml" />
+    <Content Include="WebResources\ErrorPages\en-GB\bg.jpg" />
+    <Content Include="WebResources\ErrorPages\en-GB\cannotDownloadYet.html" />
+    <Content Include="WebResources\ErrorPages\en-GB\noInternet.html" />
+    <Content Include="WebResources\ErrorPages\en-GB\pageNotFound.html" />
+    <Content Include="WebResources\ErrorPages\es-ES\bg.jpg" />
+    <Content Include="WebResources\ErrorPages\es-ES\cannotDownloadYet.html" />
+    <Content Include="WebResources\ErrorPages\es-ES\noInternet.html" />
+    <Content Include="WebResources\ErrorPages\es-ES\pageNotFound.html" />
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
@@ -186,6 +195,7 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

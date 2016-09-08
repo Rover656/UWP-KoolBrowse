@@ -14,6 +14,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Windows;
 
 namespace KoolBrowse
 {
@@ -42,7 +43,7 @@ namespace KoolBrowse
 #if DEBUG
             if (System.Diagnostics.Debugger.IsAttached)
             {
-                this.DebugSettings.EnableFrameRateCounter = true;
+                //this.DebugSettings.EnableFrameRateCounter = true; removes the annoying FPS counter
             }
 #endif
             Frame rootFrame = Window.Current.Content as Frame;
