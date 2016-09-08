@@ -17,6 +17,7 @@ using Windows.UI.Xaml.Navigation;
 using Windows.UI.Popups;
 using System.Net.NetworkInformation;
 using System.Globalization;
+using KoolBrowse.Pages;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -31,6 +32,7 @@ namespace KoolBrowse
         public MainPage()
         {
             this.InitializeComponent();
+            this.NavigationCacheMode = Windows.UI.Xaml.Navigation.NavigationCacheMode.Enabled;
             if (NetworkInterface.GetIsNetworkAvailable())
             {
                 if (Value.Text == "")
@@ -106,16 +108,14 @@ namespace KoolBrowse
             Display.Stop();
         }
 
-        private async void settingsBtn_Click(object sender, RoutedEventArgs e)
+        private void settingsBtn_Click(object sender, RoutedEventArgs e)
         {
-            var dialog = new MessageDialog("Settings are not implemented yet!");
-            await dialog.ShowAsync();
+            this.Frame.Navigate(typeof(SettingsPage), null);
         }
 
-        private async void devBtn_Click(object sender, RoutedEventArgs e)
+        private void devBtn_Click(object sender, RoutedEventArgs e)
         {
-            var dialog = new MessageDialog("Principal developers: Rover656 and DualThink");
-            await dialog.ShowAsync();
+            this.Frame.Navigate(typeof(DevelopersPage), null);
         }
     }
 }

@@ -78,6 +78,12 @@ namespace KoolBrowse
                 // Ensure the current window is active
                 Window.Current.Activate();
             }
+            if (Windows.Foundation.Metadata.ApiInformation.IsTypePresent("Windows.UI.ViewManagement.StatusBar"))
+            {
+                var statusBar = Windows.UI.ViewManagement.StatusBar.GetForCurrentView();
+                statusBar.BackgroundColor = Windows.UI.Colors.Black;
+                statusBar.BackgroundOpacity = 1;
+            }
         }
 
         /// <summary>

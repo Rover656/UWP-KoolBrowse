@@ -129,6 +129,18 @@
   <data name="forwardButton.Label" xml:space="preserve">
     <value>Forward</value>
   </data>
+  <data name="pageContentDevelopers.Text" xml:space="preserve">
+    <value>Principal developers: Rover656 and DualThink</value>
+  </data>
+  <data name="pageContentSettingsNoSettings.Text" xml:space="preserve">
+    <value>There are no settings yet!</value>
+  </data>
+  <data name="pageHeaderDevelopers.Text" xml:space="preserve">
+    <value>Developers</value>
+  </data>
+  <data name="pageHeaderSettings.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
   <data name="refreshButton.Label" xml:space="preserve">
     <value>Refresh</value>
   </data>

@@ -1,5 +1,5 @@
 ﻿<Page
-    x:Class="KoolBrowse.Pages.SettingsPage"
+    x:Class="KoolBrowse.Pages.DevelopersPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:KoolBrowse.Pages"
@@ -18,8 +18,8 @@
             </Grid.ColumnDefinitions>
             <Button Background="Aquamarine" Content="Back" Height="50" Click="goBackBtn" />
             <Rectangle Grid.Column="1" Fill="Aquamarine" Height="50"/>
-            <TextBlock Grid.Column="1" Text="Settings" x:Uid="pageHeaderSettings" VerticalAlignment="Center" HorizontalAlignment="Center" />
+            <TextBlock Grid.Column="1" Text="Developers" x:Uid="pageHeaderDevelopers" VerticalAlignment="Center" HorizontalAlignment="Center" />
         </Grid>
-        <TextBlock Text="There are no settings yet!" x:Uid="pageContentSettingsNoSettings" HorizontalAlignment="Center" Margin="0,50,0,0"/>
+        <TextBlock Text="Principal developers: Rover656 and DualThink" x:Uid="pageContentDevelopers" HorizontalAlignment="Center" Margin="0,50,0,0"/>
     </Grid>
 </Page>
