@@ -123,10 +123,16 @@
   <data name="cancelButton.Label" xml:space="preserve">
     <value>Cancel</value>
   </data>
+  <data name="devButton.Label" xml:space="preserve">
+    <value>Developers</value>
+  </data>
   <data name="forwardButton.Label" xml:space="preserve">
     <value>Forward</value>
   </data>
   <data name="refreshButton.Label" xml:space="preserve">
     <value>Refresh</value>
+  </data>
+  <data name="settingsButton.Label" xml:space="preserve">
+    <value>Settings</value>
   </data>
 </root>

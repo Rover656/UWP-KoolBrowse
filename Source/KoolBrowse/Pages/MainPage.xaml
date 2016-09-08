@@ -8,21 +8,25 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBox    Name="Value"
-                    VerticalAlignment="Top"
-                    InputScope="Url"
-                    KeyDown="Value_KeyDown"/>
+        <TextBox     Name="Value"
+                     VerticalAlignment="Top"
+                     InputScope="Url"
+                     KeyDown="Value_KeyDown"/>
         <WebView Name="Display"
                      NavigationCompleted="Display_NavigationCompleted" Margin="0,32,0,0"/>
     </Grid>
     <Page.BottomAppBar>
         <AppBar IsOpen="False" IsSticky="True">
-            <StackPanel Orientation="Horizontal">
-                <AppBarButton Icon="Back" Label="Back" x:Name="backBtn" x:Uid="backButton" Click="backBtn_Click"/>
-                <AppBarButton Icon="Forward" Label="Forward" x:Name="fowardBtn" x:Uid="forwardButton" Click="fowardBtn_Click"/>
-                <AppBarButton Icon="Refresh" Label="Refresh" x:Name="refreshBtn" x:Uid="refreshButton" Click="refreshBtn_Click"/>
-                <AppBarButton Icon="Cancel" Label="Cancel" x:Name="cancelBtn" x:Uid="cancelButton" Click="cancelBtn_Click"/>
-            </StackPanel>
+            <ScrollViewer HorizontalScrollBarVisibility="Hidden">
+                <StackPanel Orientation="Horizontal">
+                    <AppBarButton Icon="Back" Label="Back" x:Name="backBtn" x:Uid="backButton" Click="backBtn_Click"/>
+                    <AppBarButton Icon="Forward" Label="Forward" x:Name="fowardBtn" x:Uid="forwardButton" Click="fowardBtn_Click"/>
+                    <AppBarButton Icon="Refresh" Label="Refresh" x:Name="refreshBtn" x:Uid="refreshButton" Click="refreshBtn_Click"/>
+                    <AppBarButton Icon="Cancel" Label="Cancel" x:Name="cancelBtn" x:Uid="cancelButton" Click="cancelBtn_Click"/>
+                    <AppBarButton Icon="Setting" Label="Settings" x:Name="settingsBtn" x:Uid="settingsButton" Click="settingsBtn_Click"/>
+                    <AppBarButton Icon="People" Label="Developers" x:Name="devBtn" x:Uid="devButton" Click="devBtn_Click"/>
+                </StackPanel>
+            </ScrollViewer>
         </AppBar>
     </Page.BottomAppBar>
 </Page>
