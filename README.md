@@ -34,7 +34,7 @@ https://www.youtube.com/watch?v=0cf5Qd3f4NY&index=62&list=PLaoF-xhnnrRUNVx-JAfEy
 - [ ] History Page
 - [ ] Favourites Page
 - [x] Redesign UI
-- [x] Show device Status Bar
+- [ ] Show device Status Bar
 - [ ] Make URL bar highlight the whole line when selecting it
 - [x] Fix typos
 - [ ] Programmers edition (With special Keyboard)
