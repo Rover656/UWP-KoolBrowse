@@ -34,12 +34,12 @@ https://www.youtube.com/watch?v=0cf5Qd3f4NY&index=62&list=PLaoF-xhnnrRUNVx-JAfEy
 - [ ] History Page
 - [ ] Favourites Page
 - [x] Redesign UI
-- [ ] Show device Status Bar
+- [x] Show device Status Bar
 - [ ] Make URL bar highlight the whole line when selecting it
 - [x] Fix typos
 - [ ] Programmers edition (With special Keyboard)
-- [ ] Settings Page
-- [ ] Multilingual Resources (Implement Soon!)
+- [x] Settings Page
+- [x] Multilingual Resources
 - [ ] Tabs
 - [x] Create error pages with background
-- [ ] Internet Checker (Activats no internet error is no internet found)
+- [x] Internet Checker (Activates no internet error is no internet found)
