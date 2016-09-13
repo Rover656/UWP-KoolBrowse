@@ -40,6 +40,8 @@ https://www.youtube.com/watch?v=0cf5Qd3f4NY&index=62&list=PLaoF-xhnnrRUNVx-JAfEy
 - [ ] Programmers edition (With special Keyboard)
 - [x] Settings Page
 - [x] Multilingual Resources
-- [ ] Tabs
+- [ ] Tabs[BETA]
 - [x] Create error pages with background
 - [x] Internet Checker (Activates no internet error is no internet found)
+- [ ] New settings page UI
+- [ ] Remove developers page and put it in settings
