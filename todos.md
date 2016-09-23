@@ -1,6 +1,6 @@
 - [ ] Add support for expired/invalid/self-signed ect. SSL Certificates (Must allow these in settings)
 - [ ] Add the site title to the app's title and to a text box on mobile
-- [ ] Add the pivot view to the settings page and decide on some sections
+- [x] Add the pivot view to the settings page and decide on some sections (Currently in a private build)
 - [ ] Add an option for adding a custom search engine (Will currently require exact search url and space changer (E.G URL: http://google.com/search?q= and spaces become '+' but will build an understanding of many different search engines)
 
 
@@ -11,7 +11,9 @@ Format
 
 - Google - http://google.com - http://google.com/search?q= - +
 - Bing - http://bing.com - http://bing.com/search?q= - +
-- Yahoo - http://yahoo.com - ??? - +
+- Yahoo - http://yahoo.com - http://search.yahoo.com/search?p= - +
+- DuckDuckGo - http://duckduckgo.com - http://duckduckgo.com/?q= - +
+- AOL - http://aol.com - http://search.aol.com/aol/search/?q= - +
 
 How to contibute?
 -----------------
