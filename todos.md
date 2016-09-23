@@ -12,4 +12,7 @@ Format
 - Google - http://google.com - http://google.com/search?q= - +
 - Bing - http://bing.com - http://bing.com/search?q= - +
 - Yahoo - http://yahoo.com - ??? - +
+
+How to contibute?
+-----------------
 Feel free to add your favourite search engines here, they will be added into the browser
