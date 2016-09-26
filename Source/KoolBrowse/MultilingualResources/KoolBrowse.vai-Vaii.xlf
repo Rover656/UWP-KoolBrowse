@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-GB" target-language="vai-Vaii" original="KOOLBROWSE/STRINGS/EN-GB/RESOURCES.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1795.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="KOOLBROWSE/STRINGS/EN-GB/RESOURCES.RESW" datatype="resx">
+        <trans-unit id="backButton.Label" translate="yes" xml:space="preserve">
+          <source>Back</source>
+          <target state="new">Back</target>
+        </trans-unit>
+        <trans-unit id="cancelButton.Label" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="new">Cancel</target>
+        </trans-unit>
+        <trans-unit id="devButton.Label" translate="yes" xml:space="preserve">
+          <source>Developers</source>
+          <target state="new">Developers</target>
+        </trans-unit>
+        <trans-unit id="forwardButton.Label" translate="yes" xml:space="preserve">
+          <source>Forward</source>
+          <target state="new">Forward</target>
+        </trans-unit>
+        <trans-unit id="pageContentDevelopers.Text" translate="yes" xml:space="preserve">
+          <source>Principal developers: Rover656 and DualThink</source>
+          <target state="new">Principal developers: Rover656 and DualThink</target>
+        </trans-unit>
+        <trans-unit id="pageContentSettingsNoSettings.Text" translate="yes" xml:space="preserve">
+          <source>There are no settings yet!</source>
+          <target state="new">There are no settings yet!</target>
+        </trans-unit>
+        <trans-unit id="pageHeaderDevelopers.Text" translate="yes" xml:space="preserve">
+          <source>Developers</source>
+          <target state="new">Developers</target>
+        </trans-unit>
+        <trans-unit id="pageHeaderSettings.Text" translate="yes" xml:space="preserve">
+          <source>Settings</source>
+          <target state="new">Settings</target>
+        </trans-unit>
+        <trans-unit id="refreshButton.Label" translate="yes" xml:space="preserve">
+          <source>Refresh</source>
+          <target state="new">Refresh</target>
+        </trans-unit>
+        <trans-unit id="settingsButton.Label" translate="yes" xml:space="preserve">
+          <source>Settings</source>
+          <target state="new">Settings</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

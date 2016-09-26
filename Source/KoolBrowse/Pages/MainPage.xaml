@@ -21,7 +21,6 @@
                     <AppBarButton Icon="Refresh" Label="Refresh" x:Name="refreshBtn" x:Uid="refreshButton" Click="refreshBtn_Click"/>
                     <AppBarButton Icon="Cancel" Label="Cancel" x:Name="cancelBtn" x:Uid="cancelButton" Click="cancelBtn_Click"/>
                     <AppBarButton Icon="Setting" Label="Settings" x:Name="settingsBtn" x:Uid="settingsButton" Click="settingsBtn_Click"/>
-                    <AppBarButton Icon="People" Label="Developers" x:Name="devBtn" x:Uid="devButton" Click="devBtn_Click"/>
                 </StackPanel>
             </ScrollViewer>
         </AppBar>
