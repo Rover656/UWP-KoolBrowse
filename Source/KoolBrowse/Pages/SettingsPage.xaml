@@ -12,7 +12,6 @@
         <Grid>
             <!-- 
             Page ToDOs:
-            Add language resources for the text
             Make hyperlinks open in our WebView
             -->
             <Button Content="Back"
@@ -25,14 +24,14 @@
                 <PivotItem Header="General">
                     <!--Pivot content goes here-->
                     <Grid>
-                        <TextBlock TextWrapping="Wrap" Text="General Options."/>
+                        <TextBlock x:Uid="SettingsGeneralOptionsInfo" TextWrapping="Wrap" Text="General Options."/>
                     </Grid>
                 </PivotItem>
                 <PivotItem Header="Search">
                     <!--Pivot content goes here-->
                     <Grid>
                         <StackPanel>
-                            <TextBlock TextWrapping="Wrap" Text="Search Related Options." Margin="0,0,0,5"/>
+                            <TextBlock x:Uid="SettingsSearchOptionsInfo" TextWrapping="Wrap" Text="Search Related Options." Margin="0,0,0,5"/>
                         </StackPanel>
                     </Grid>
                 </PivotItem>
@@ -40,9 +39,9 @@
                     <!--Pivot content goes here-->
                     <Grid>
                         <StackPanel>
-                            <TextBlock TextWrapping="Wrap" Text="KoolBrowse, developed by Rover656 and DualThink."/>
+                            <TextBlock x:Uid="SettingsDevelopersInfo" TextWrapping="Wrap" Text="KoolBrowse, developed by Rover656 and DualThink."/>
                             <!--TODO: Make the URL open in the KoolBrowse window-->
-                            <HyperlinkButton NavigateUri="http://github.com/Rover656/UWP-KoolBrowse" Content="GitHub Repo"/>
+                            <HyperlinkButton x:Uid="SettingsDevelopersGitHubLink" NavigateUri="http://github.com/Rover656/UWP-KoolBrowse" Content="GitHub Repo."/>
                         </StackPanel>
                     </Grid>
                 </PivotItem>

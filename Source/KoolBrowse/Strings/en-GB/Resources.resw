@@ -147,4 +147,16 @@
   <data name="settingsButton.Label" xml:space="preserve">
     <value>Settings</value>
   </data>
+  <data name="SettingsDevelopersGitHubLink" xml:space="preserve">
+    <value>GitHub Repo.</value>
+  </data>
+  <data name="SettingsDevelopersInfo" xml:space="preserve">
+    <value>KoolBrowse, developed by Rover656 and DualThink</value>
+  </data>
+  <data name="SettingsGeneralOptionsInfo" xml:space="preserve">
+    <value>General Options.</value>
+  </data>
+  <data name="SettingsSearchOptionsInfo" xml:space="preserve">
+    <value>Search Related Options.</value>
+  </data>
 </root>

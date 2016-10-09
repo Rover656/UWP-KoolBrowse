@@ -46,6 +46,22 @@
           <source>Settings</source>
           <target state="new">Settings</target>
         </trans-unit>
+        <trans-unit id="SettingsDevelopersGitHubLink" translate="yes" xml:space="preserve">
+          <source>GitHub Repo.</source>
+          <target state="new">GitHub Repo.</target>
+        </trans-unit>
+        <trans-unit id="SettingsDevelopersInfo" translate="yes" xml:space="preserve">
+          <source>KoolBrowse, developed by Rover656 and DualThink</source>
+          <target state="new">KoolBrowse, developed by Rover656 and DualThink</target>
+        </trans-unit>
+        <trans-unit id="SettingsGeneralOptionsInfo" translate="yes" xml:space="preserve">
+          <source>General Options.</source>
+          <target state="new">General Options.</target>
+        </trans-unit>
+        <trans-unit id="SettingsSearchOptionsInfo" translate="yes" xml:space="preserve">
+          <source>Search Related Options.</source>
+          <target state="new">Search Related Options.</target>
+        </trans-unit>
       </group>
     </body>
   </file>

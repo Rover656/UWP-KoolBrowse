@@ -14,6 +14,7 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using KoolBrowse.Utils;
 using KoolBrowse.ViewModels;
+using Windows.UI.Core;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
@@ -35,6 +36,13 @@ namespace KoolBrowse.Pages
             set { SettingsService.Instance.StartOnSearchEngine = value; }
         }
         #endregion
+
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            var currentView = SystemNavigationManager.GetForCurrentView();
+            currentView.AppViewBackButtonVisibility = AppViewBackButtonVisibility.Visible;
+            currentView.BackRequested += onBack;// Event handler goes here
+        }
         private void goBackBtn(object sender, RoutedEventArgs e)
         {
             this.Frame.Navigate(typeof(MainPage), null);
@@ -42,6 +50,10 @@ namespace KoolBrowse.Pages
         private void Update_StartOnSearchEngine(object sender, RoutedEventArgs e)
         {
             //var val = StartOnEngineCheckBox.IsEnabled;
+        }
+        private void onBack(object sender, BackRequestedEventArgs e)
+        {
+            this.Frame.Navigate(typeof(MainPage), null);
         }
     }
 }
