@@ -8,19 +8,19 @@
       <group id="KOOLBROWSE/STRINGS/EN-GB/RESOURCES.RESW" datatype="resx">
         <trans-unit id="backButton.Label" translate="yes" xml:space="preserve">
           <source>Back</source>
-          <target state="new">Back</target>
+          <target state="new">Retroceder</target>
         </trans-unit>
         <trans-unit id="cancelButton.Label" translate="yes" xml:space="preserve">
           <source>Cancel</source>
-          <target state="new">Cancel</target>
+          <target state="new">Detener</target>
         </trans-unit>
         <trans-unit id="devButton.Label" translate="yes" xml:space="preserve">
           <source>Developers</source>
-          <target state="new">Developers</target>
+          <target state="new">Desarrolladores</target>
         </trans-unit>
         <trans-unit id="forwardButton.Label" translate="yes" xml:space="preserve">
           <source>Forward</source>
-          <target state="new">Forward</target>
+          <target state="new">Avanzar</target>
         </trans-unit>
         <trans-unit id="pageContentDevelopers.Text" translate="yes" xml:space="preserve">
           <source>Principal developers: Rover656 and DualThink</source>
@@ -36,35 +36,35 @@
         </trans-unit>
         <trans-unit id="pageHeaderSettings.Text" translate="yes" xml:space="preserve">
           <source>Settings</source>
-          <target state="new">Settings</target>
+          <target state="new">Configuración</target>
         </trans-unit>
         <trans-unit id="refreshButton.Label" translate="yes" xml:space="preserve">
           <source>Refresh</source>
-          <target state="new">Refresh</target>
+          <target state="new">Actualizar</target>
         </trans-unit>
         <trans-unit id="settingsButton.Label" translate="yes" xml:space="preserve">
           <source>Settings</source>
-          <target state="new">Settings</target>
+          <target state="new">Configuración</target>
         </trans-unit>
         <trans-unit id="SettingsDevelopersGitHubLink" translate="yes" xml:space="preserve">
           <source>GitHub Repo.</source>
-          <target state="new">GitHub Repo.</target>
+          <target state="new">Repositiorio de GitHub</target>
         </trans-unit>
         <trans-unit id="SettingsDevelopersInfo.Text" translate="yes" xml:space="preserve">
           <source>KoolBrowse, developed by Rover656 and DualThink</source>
-          <target state="new">KoolBrowse, developed by Rover656 and DualThink</target>
+          <target state="new">KoolBrowse, desarrollado por Rover656 y DualThink</target>
         </trans-unit>
         <trans-unit id="SettingsGeneralOptionsInfo.Text" translate="yes" xml:space="preserve">
           <source>General Options.</source>
-          <target state="new">General Options.</target>
+          <target state="new">Config. General</target>
         </trans-unit>
         <trans-unit id="SettingsSearchOptionsInfo.Text" translate="yes" xml:space="preserve">
           <source>Search Related Options.</source>
-          <target state="new">Search Related Options.</target>
+          <target state="new">Opciones de búsqueda</target>
         </trans-unit>
         <trans-unit id="SettingsDevelopersStorePageLink.Content" translate="yes" xml:space="preserve">
           <source>Windows Store Page.</source>
-          <target state="new">Windows Store Page.</target>
+          <target state="new">Página de la tienda Windows</target>
         </trans-unit>
       </group>
     </body>
