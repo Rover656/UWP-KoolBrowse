@@ -1,4 +1,5 @@
-# UWP-KoolBrowse
+
+- # UWP-KoolBrowse
 A nice clean browser for Windows 10 UWP
 
 ## Principal Developers
@@ -44,3 +45,4 @@ https://www.youtube.com/watch?v=0cf5Qd3f4NY&index=62&list=PLaoF-xhnnrRUNVx-JAfEy
 - [x] Internet Checker (Activates no internet error is no internet found)
 - [x] New settings page UI
 - [x] Remove developers page and put it in settings
+- [ ] Add a progress bar to top of screen
