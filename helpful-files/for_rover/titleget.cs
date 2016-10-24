@@ -38,5 +38,5 @@ public static string GetSiteTitle(string url)
       }
  
    // Not a valid HTML page
-   return null;
+   return "Blank Page";
 }
