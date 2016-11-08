@@ -1,5 +1,5 @@
 
-- # UWP-KoolBrowse
+# UWP-KoolBrowse
 A nice clean browser for Windows 10 UWP
 
 ## Principal Developers
@@ -15,21 +15,21 @@ A nice clean browser for Windows 10 UWP
 - Youtube: (https://www.youtube.com/watch?v=dVzn37w3T4I)
 
 ## Latest
-The app is fully compatible with the anniversary update!
+- The app is fully compatible with the anniversary update!
 
 ## Languages
-This app is available in the following languages:</br>
-English (en-GB)</br>
-Spanish (haves a help section), search in code (spanish_help) path
+This app is available in the following languages:
+- English (en-GB)
+- Spanish (haves a help section), search in code (spanish_help) path
 
 ## Features
-Back and Forward buttons</br>
-Url Bar</br>
-Search and short url's</br>
-Multi-Language</br>
+- Back and Forward buttons
+- Url Bar
+- Search and short url's
+- Multi-Language
 
 ## Built upon
-https://www.youtube.com/watch?v=0cf5Qd3f4NY&index=62&list=PLaoF-xhnnrRUNVx-JAfEy_kUrGGaKS7HL
+- https://www.youtube.com/watch?v=0cf5Qd3f4NY&index=62&list=PLaoF-xhnnrRUNVx-JAfEy_kUrGGaKS7HL
 
 ## To-To's
 - [ ] History Page
