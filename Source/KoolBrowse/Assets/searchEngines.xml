@@ -1,0 +1,19 @@
+<SearchEngines>
+  <Google>
+    <Displayname>Google</DisplayName>
+    <MainUrl>http://google.com</MainUrl>
+    <SearchUrl>http://google.com/search?q=</SearchUrl>
+    <SpaceReplacement>+</SpaceReplacement>
+  </Google>
+  <Bing>
+    <Displayname>Bing</DisplayName>
+    <MainUrl>http://bing.com</MainUrl>
+    <SearchUrl>http://bing.com/search?q=</SearchUrl>
+    <SpaceReplacement>+</SpaceReplacement>
+  </Bing>
+  <ALL>
+    <Count>2</Count>
+    <0>Google</0>
+    <1>Bing</1>
+  </ALL>
+</SearchEngines>
