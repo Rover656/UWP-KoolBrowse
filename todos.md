@@ -2,6 +2,7 @@
 - [ ] Add the site title to the app's title and to a text box on mobile
 - [x] Add the pivot view to the settings page and decide on some sections
 - [ ] Add an option for adding a custom search engine (Will currently require exact search url and space changer (E.G URL: http://google.com/search?q= and spaces become '+' but will build an understanding of many different search engines)
+- [ ] Get back on the Windows Store (We got reported!)
 
 
 Search Engine's and they're exact search urls
