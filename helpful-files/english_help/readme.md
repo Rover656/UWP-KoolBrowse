@@ -1,8 +1,8 @@
 # KoolBrowser Help Centre.
-## Why just the English language?
-### Because the English language is what the devs speak.
+## Why is the only support language English?
+### Because the devs speak English.
 ## Is there support for other languages?
-### There is not, you have to speak English to get help from this channel.
+### There is not, you have to speak English to get help from us.
 ## Frequent questions.
 ### Q: What is this program?
 ### A: It is a web browser for Windows 10 devices.
