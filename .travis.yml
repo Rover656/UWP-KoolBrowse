@@ -1,2 +1,2 @@
 language: csharp
-solution: Source/KoolBrowse.sln
+solution: Source/KoolBrowse/KoolBrowse.sln
