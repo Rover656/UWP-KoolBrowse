@@ -1,3 +1,5 @@
+# Archived
+This project is now archived, it is being left here because this was my first ever GitHub Open Source Project.
 
 # UWP-KoolBrowse
 A nice clean browser for Windows 10 UWP
@@ -9,7 +11,7 @@ A nice clean browser for Windows 10 UWP
 [Twitter](https://twitter.com/KoolBrowse)
 
 ## Dev's Chat Media
-- Discord:  (https://discord.gg/WauNpUU)
+- ~~Discord:  (https://discord.gg/WauNpUU)~~
 
 ## Intro Video
 - Youtube: (https://www.youtube.com/watch?v=dVzn37w3T4I)
